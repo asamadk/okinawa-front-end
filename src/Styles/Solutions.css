@@ -29,12 +29,10 @@
     padding: 10px 0px;
 }
 
-.img1{
+.img4{
+    height: 300px;
+    width: 300px;
     border-radius: 50px;
-    /* padding:10px; */
-    /* margin-left: 20%; */
-    /* margin-top: 5%; */
-    /* margin-bottom: 5%; */
 }
 
 .solutions-third-container{

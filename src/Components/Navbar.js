@@ -75,7 +75,7 @@ const Navbar = () => {
         <div className="navbar-main-container"> 
         <div className="navbar-left-container">
             <div className="main-logo">
-                <img src='oki.jpeg'></img>
+                <img src='https://i.ibb.co/jvyvqs3/oki.jpg'></img>
                 <h1>Okinawa</h1>
             </div>
             <div className="navbar-hamburger">

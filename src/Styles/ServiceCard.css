@@ -26,6 +26,11 @@
     margin-top: 10%;
 }
 
+.serviceCard-main-Container img{
+    height: 200px;
+}
+
+
 @media screen and (max-width: 600px) {
     .serviceCard-main-Container{
         display: block;

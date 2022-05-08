@@ -34,7 +34,7 @@ export default function Contact() {
           <label>Mail</label>
           <input type='text'></input>
           <label>Message</label>
-          <textarea type='text' rows="6" cols="35"></textarea>
+          <textarea type='text' rows="6" cols="43"></textarea>
           <button>send</button>
         </div>
         </div>

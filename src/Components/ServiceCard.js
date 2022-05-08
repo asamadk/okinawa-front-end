@@ -1,7 +1,6 @@
 import react from 'react'
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import Avatar from '@mui/material/Avatar';
-import { deepOrange, deepPurple } from '@mui/material/colors';
 import '../Styles/ServiceCard.css'
 
 const ServiceCard = (props) => {
@@ -20,7 +19,7 @@ const ServiceCard = (props) => {
         <>
         <div className="serviceCard-main-Container">
             <div className="serviceCard-sub-Container">
-                <Avatar sx={{bgcolor: 'black', width: 29, height: 29, marginTop:2.5 }}>
+                <Avatar sx={{bgcolor: '#CF9FFF', width: 29, height: 29, marginTop:2.5 }}>
                     {createSubString(props.name)}
                 </Avatar>
                 <h3>{props.name}</h3>
@@ -28,7 +27,7 @@ const ServiceCard = (props) => {
                     <MoreHorizIcon/>
                 </div>
             </div>
-            <img src="https://picsum.photos/200/200"/>
+            <img src={props.img}/>
         </div>
         </>
     )

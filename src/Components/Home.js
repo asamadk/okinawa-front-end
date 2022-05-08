@@ -9,35 +9,23 @@ const Home = () => {
     const Services = [
         {
             id:1,
-            name : 'web development' 
+            name : 'web development' ,
+            img : 'https://i.ibb.co/8sKd9JJ/Pngtree-modern-flat-design-concept-of-5332909.png'
         },
         {
             id:2,
-            name : 'app development' 
+            name : 'App development',
+            img : 'https://i.ibb.co/M84tpYr/Pngtree-modern-flat-design-concept-of-5331513.png'
         },
         {
             id:3,
-            name : 'Web Security' 
+            name : 'Devops' ,
+            img : 'https://i.ibb.co/Tcz7QgC/Pngtree-modern-flat-design-concept-of-5332904.png'
         },
         {
             id:4,
-            name : 'Maintainance' 
-        },
-        {
-            id:5,
-            name : 'Devops' 
-        },
-        {
-            id:6,
-            name : 'Devops' 
-        },
-        {
-            id:7,
-            name : 'Devops' 
-        },
-        {
-            id:8,
-            name : 'Devops' 
+            name : 'Maintainance' ,
+            img : 'https://i.ibb.co/fXgYJmg/Pngtree-system-updates-or-maintenance-flat-6198778.png'
         }
     ];
 
@@ -49,12 +37,13 @@ const Home = () => {
                     <p>ponu hcandu hagu pandu ida pota nanu tota</p>
                 </div>
                 <div className="home-right-container">
-                    <img className="img1" src="https://picsum.photos/200/300"/>
-                    <img src="https://picsum.photos/200/300"/>
+                    <img className="img1" src="https://i.ibb.co/DRPDrBt/jess-bailey-mexe-VPl-TB6k-unsplash.jpg" alt="jess-bailey-mexe-VPl-TB6k-unsplash" border="0"></img>
+                    <img className="img2" src="https://i.ibb.co/0KcKdRt/arif-riyanto-v-JP-w-Z6h-GBg-unsplash.jpg" alt="arif-riyanto-v-JP-w-Z6h-GBg-unsplash" border="0"></img>
                 </div>
             </div>
             <div className="second-main-container">
-                <img className="img2" src="https://picsum.photos/200/300"/>
+                {/* <img className="img2" src="https://picsum.photos/200/300"/> */}
+                <img className="img3" src="https://i.ibb.co/KzwRPmY/dillon-shook-m-Y3-bv-R74f-I-unsplash.jpg" alt="dillon-shook-m-Y3-bv-R74f-I-unsplash" border="0"></img>
                 <div className="heading-smc">
                     <h1>what makes us different from others</h1>
                     <ul>
@@ -72,7 +61,7 @@ const Home = () => {
                     {
                         Services.map(service => {
                             return(
-                                <ServiceCard name = {service.name}/>
+                                <ServiceCard name = {service.name} img = {service.img}/>
                             )
                         })
                     }
