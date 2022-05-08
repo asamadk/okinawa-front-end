@@ -1,87 +1,127 @@
 export const WHAT_WE_DO = 'What we do?';
-export const WHAT_WE_DO_DETAIL = 'As solution providers, we analyse the client’s current setup, understand their requirement from the IT setup, try to address the current and future requirement issues and accordingly offer solutions. The areas where we provide these solutions are: Hardware Solutions Servers/ Desktops/ Laptops Infrastructure Software High availability and Load balancing solutions Messaging and collaboration solutions Database solutions E- Security Solutions Virus protection Firewalls Intrusion prevention Spam prevention solution Virtual Private Networks Encryption Email monitoring and control Web surfing management Storage & Backup Management Solutions NAS/SAN solutions Automated backup Disaster recovery Network Solutions Network Performance management Wireless LAN Network monitoring';
+export const WHAT_WE_DO_DETAIL = 'In today’s business environment, engaging an IT support company could be one of the best things you can do for your business. We offer a wide range of services so you can procure the services you need. We provide a variety of things that range from providing you with expert guidance on your IT system to troubleshooting problems. We create an IT strategy that works together with your business strategy. This involves more than just fixing tech stuff. The company will come up with intelligent solutions to address your current and future business needs. They aim to boost your business productivity and efficiency, resulting in higher client satisfaction and improved earnings.';
 export const CONTACT_US = 'These are some frequently asked questions by our visitors, If you dont find what you are looking for feel free to contact us';
+export const HOME_HEADING = 'Providing the best IT services in minimum time and at legitimate cost!';
+export const HOME_SUB_HEADING = 'To give real service we must add something which cannot be bought or measured with money, and that is sincerity and integrity.';
+export const WHAT_MAKES_DIFFERENT = 'what makes us different from others ?';
+export const OUR_SERVICES = 'Our Services';
+export const LEARN_MORE = 'Learn more';
+export const GET_STARTED = 'Get started';
+export const JOIN_US = 'Join Our growing community';
+export const JOIN_US_PARA = 'see how IT solution can grow your business';
+export const OKINAWA = 'Okinawa'
+
+export const DIFFERENT_LIST = [
+  'No hidden charges, everything displayed upfront.',
+  'We use the most latest and matured technology.',
+  'We give extreme importance to security.',
+  'Punctuality matters a lot for us.',
+  'Legitimate cost.',
+]
+
+export const SERVICE_SMALL = [
+  {
+      id:1,
+      name : 'web development' ,
+      img : 'https://i.ibb.co/8sKd9JJ/Pngtree-modern-flat-design-concept-of-5332909.png'
+  },
+  {
+      id:2,
+      name : 'App development',
+      img : 'https://i.ibb.co/M84tpYr/Pngtree-modern-flat-design-concept-of-5331513.png'
+  },
+  {
+      id:3,
+      name : 'Devops' ,
+      img : 'https://i.ibb.co/Tcz7QgC/Pngtree-modern-flat-design-concept-of-5332904.png'
+  },
+  {
+      id:4,
+      name : 'Maintainance' ,
+      img : 'https://i.ibb.co/fXgYJmg/Pngtree-system-updates-or-maintenance-flat-6198778.png'
+  }
+];
 
 export const SERVICE_LIST = [
     {
         img : 'https://i.ibb.co/8sKd9JJ/Pngtree-modern-flat-design-concept-of-5332909.png',
         heading : 'Web Development',
         bullet : [
-            'Active Directory, Database Servers',
-            'Desktop/ Server/ Application Virtualisation, Desktop/ Laptops/ Servers',
-            'High Availability and Load balancing solutions',
-            'Messaging and collaboration servers',
-            'Network Performance Management',
-            'Office automation applications, Software development tools',
-            'Switches/ Routers, System management tools',
-            'Video/ Print/ Web publishing software solutions, Wireless LAN',
+            'Building custom web applications tailored to your business',
+            'Bringing worldwide traffic to your business',
+            'Providing security for your web applications',
+            'Building response web applications to be accessed from any device',
+            'Web application Performance Management',
+            'Optimizing the application to deal with high load',
         ]
     },
     {
         img : 'https://i.ibb.co/M84tpYr/Pngtree-modern-flat-design-concept-of-5331513.png',
         heading : 'Application Development',
         bullet : [
-            'Active Directory, Database Servers',
-            'Desktop/ Server/ Application Virtualisation, Desktop/ Laptops/ Servers',
-            'High Availability and Load balancing solutions',
-            'Messaging and collaboration servers',
-            'Network Performance Management',
-            'Office automation applications, Software development tools',
-            'Switches/ Routers, System management tools',
-            'Video/ Print/ Web publishing software solutions, Wireless LAN',
+            'Building native application accross all mobile platform',
+            'Creating cross-platform and native applications for mobile devices',
+            'Extracting the full potential of a mobile device for best performance',
+            'Leveraging the power of device to create sophesticated systems',
+            'Offline/Online application development',
         ]
     },
     {
         img : 'https://i.ibb.co/Tcz7QgC/Pngtree-modern-flat-design-concept-of-5332904.png',
         heading : 'Devops',
         bullet : [
-            'Active Directory, Database Servers',
+            'Handling servers and infrastructure for your applications',
             'Desktop/ Server/ Application Virtualisation, Desktop/ Laptops/ Servers',
             'High Availability and Load balancing solutions',
             'Messaging and collaboration servers',
             'Network Performance Management',
-            'Office automation applications, Software development tools',
-            'Switches/ Routers, System management tools',
-            'Video/ Print/ Web publishing software solutions, Wireless LAN',
         ]
     },
     {
         img : 'https://i.ibb.co/fXgYJmg/Pngtree-system-updates-or-maintenance-flat-6198778.png',
         heading : 'Maintainance',
         bullet : [
-            'Active Directory, Database Servers',
-            'Desktop/ Server/ Application Virtualisation, Desktop/ Laptops/ Servers',
-            'High Availability and Load balancing solutions',
-            'Messaging and collaboration servers',
-            'Network Performance Management',
-            'Office automation applications, Software development tools',
-            'Switches/ Routers, System management tools',
-            'Video/ Print/ Web publishing software solutions, Wireless LAN',
+            'Regularly maintaing your application for a smooth run',
+            'Making the down time close to zero',
+            'Helping with previously developed software',
+            'Conducting regular stress tests to find the capability of software',
         ]
     }
 ]
 
 export const FAQs = [
     {
-      question : 'What other services you provide',
+      question : 'What other services we provide?',
       answer : 'We provide all IT services from development to deployment'
     },
     {
-      question : 'Question',
-      answer : 'answer'
+      question : 'What is the cost of developing a web application',
+      answer : 'This varies from application to application as they all are somewhat different from each other. Still a static web application costs less than a static mobile application'
     },
     {
-      question : 'Question',
-      answer : 'answer'
+      question : 'Why do I need Managed IT Services?',
+      answer : 'Every business of every size in every industry must take a proactive approach to IT management in order to increase productivity, reduce downtime, improve cybersecurity, and achieve better cost predictability '
     },
     {
-      question : 'Question',
-      answer : 'answer'
+      question : ' Does The ITeam provide afterhours emergency support?',
+      answer : 'Yes, Okinawa Solutions provides 7x24x365 support.'
     },
     {
-      question : 'Question',
-      answer : 'answer'
+      question : 'What kind of service response can I expect?',
+      answer : 'The Okinawa team guarantees 1-hour response but the typical response is measured in minutes.'
     },
+    {
+      question : 'Does Okinawa support the Cloud?',
+      answer : 'The Okinawa provides private, secure cloud services as well as public cloud services through Amazon AWS. We offer hybrid choices that best meet your company and your budget needs.'
+    },
+    {
+      question : 'What geographic area do you support?',
+      answer : 'While we are based in Northern part of India we easily support all of places with internet access'
+    },
+    {
+      question : 'What certifications do your security engineers have?',
+      answer : 'Our engineers have professional degrees in their respective fields along with years of experience in software development'
+    }
 ]
 
 export const ABOUT_US = 'We would be pleased to work with you to introduce you to the solutions available through us in the field of Information Technology.'

@@ -19,11 +19,11 @@ export default function Contact() {
               </div>
               <div className='contact-sub-info'>
                 <MailIcon sx={{ color: 'white', marginTop: '15px' }}/>
-                <h4>abcd.gmail.com</h4>
+                <h4>abdul.samadkirmani.samad63@gmail.com</h4>
               </div>
               <div className='contact-sub-info'>
                 <LocationOnIcon sx={{ color: 'white', marginTop: '15px' }}/>
-                <h4>111 street 111 don</h4>
+                <h4>Goolar naka banda (U.P) India</h4>
               </div>
             </div>
           </div>
