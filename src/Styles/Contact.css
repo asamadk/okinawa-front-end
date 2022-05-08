@@ -1,0 +1,110 @@
+.contact-right-container{
+    height: 60vh;
+    border-radius: 10px;
+    width: 60vh;
+    background-color: white;
+}
+
+.contact-sub-container{
+    width:150vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* margin-left: 30px; */
+    background-color: black;
+}
+
+.contact-main-container{
+    display: flex;
+    /* justify-content: center; */
+    margin: 0% 20%;
+    padding: 5% 0%;
+    border-radius: 10px;
+}
+
+.contact-info{
+    padding-top: 20px;
+}
+
+.contact-info h4{
+    font-weight: 400;
+    text-align: start;
+    margin-left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.contact-left p{
+    text-align: start;
+    margin-left: 30px;
+    font-size: 15px;
+    color: gray;
+    width: 80%;
+}
+
+.contact-left h2{
+    font-size: 35px;
+    margin-left: 30px;
+    text-align: start;
+    color: whitesmoke;
+}
+
+.contact-right-container button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-right-container input{
+    width: 83%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
+.contact-right-container input:focus{
+    outline:2px #CF9FFF solid;
+}
+
+.contact-right-container input:hover{
+    border: 1px #CF9FFF solid;
+}
+
+.contact-right-container label{
+    display: block;
+    text-align: start;
+    margin-left: 6%;
+    margin-top: 20px;
+    font-size:x-small ;
+    font-weight: 600;
+}
+
+.contact-sub-info{
+    display: flex;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 600px){
+    .contact-sub-container{
+        display: block;
+    }
+
+    .contact-right-container{
+        width: 100%;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .contact-main-container{
+        margin: 2%;
+    }
+
+    textarea{
+        width: 90%;
+    }
+}

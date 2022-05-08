@@ -1,0 +1,37 @@
+.serviceCard-main-Container{
+    border: 1.5px #C5C5C5 solid;
+    width: 18%;
+    border-radius: 15px;
+    margin: 2% 3%;
+    cursor: pointer;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+}
+
+.serviceCard-sub-Container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceCard-main-Container h3{
+    font-weight: 400;
+}
+
+.serviceCard-main-Container img{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.serviceCard-icon-div{
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .serviceCard-main-Container{
+        display: block;
+        height: 15%;
+        padding-bottom: 30px;
+        width: 80%;
+        margin-left: 10%;
+    }
+}

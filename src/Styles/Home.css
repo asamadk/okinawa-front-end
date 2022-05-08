@@ -1,0 +1,144 @@
+.home-main-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.home-left-container{
+    max-width: 40%;
+}
+
+.home-left-container h1{
+    font-weight: 600;
+}
+
+.home-left-container p{
+    color: gray;
+}
+
+.home-right-container img{
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.second-main-container{
+    /* border: 1px red solid; */
+    display: flex;
+    background: black;
+    /* align-items: center; */
+}
+
+.second-main-container img{
+    border-radius: 50px;
+    padding:10px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.heading-smc {
+    /* border: 1px blue solid; */
+    max-width: 40%;
+    margin-left: 100px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.heading-smc h1 {
+    font-weight: 600;
+}
+
+.heading-smc li {
+    text-align: start;
+}
+
+/* ul li::before{
+    color: #CF9FFF;
+} */
+
+.heading-smc button{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #CF9FFF;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.third-main-container h1{
+    font-weight: 600;
+    margin: 50px 0px;
+}
+
+/* .third-main-container{
+    width: 80%;
+} */
+
+.third-sub-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    flex-wrap:wrap;
+    /* margin: ; */
+}
+
+.fourth-main-container {
+    margin: 5% 10%;
+    padding: 70px 30px;
+    border-radius: 10px;
+    color: white;
+    background: black;
+}
+
+.fourth-main-container h1{
+    font-weight: 600;
+}
+
+.fourth-main-container button {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #CF9FFF;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .home-main-container{
+        display: block;
+    }
+
+    .home-left-container{
+        max-width: 20%;
+    }
+
+    .second-main-container {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .second-main-container img{
+    margin-left: 0%;
+    }
+    .heading-smc{
+    max-width: 100%;
+    margin-left: 10px;
+    }
+
+    .home-left-container{
+        max-width: 100%;
+    }
+
+    .third-main-container{
+        display: block;
+        width: 100%;
+    }
+
+    .third-sub-container{
+        display: block;
+        width: 100%;
+    }
+
+   
+}
