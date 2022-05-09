@@ -14,13 +14,12 @@ const Home = () => {
                     <p>{Util.HOME_SUB_HEADING}</p>
                 </div>
                 <div className="home-right-container">
-                    <img className="img1" src="https://i.ibb.co/KzwRPmY/dillon-shook-m-Y3-bv-R74f-I-unsplash.jpg" alt="jess-bailey-mexe-VPl-TB6k-unsplash" border="0"></img>
-                    <img className="img2" src="https://i.ibb.co/0KcKdRt/arif-riyanto-v-JP-w-Z6h-GBg-unsplash.jpg" alt="arif-riyanto-v-JP-w-Z6h-GBg-unsplash" border="0"></img>
+                    <img className="img1" src="https://i.ibb.co/YBgw9xV/Jan06.jpg" alt="jess-bailey-mexe-VPl-TB6k-unsplash" border="0"></img>
+                    <img className="img2" src="https://i.ibb.co/7ngpbBr/Jan18.jpg" alt="arif-riyanto-v-JP-w-Z6h-GBg-unsplash" border="0"></img>
                 </div>
             </div>
             <div className="second-main-container">
-            
-                <img className="img3" src="https://i.ibb.co/DRPDrBt/jess-bailey-mexe-VPl-TB6k-unsplash.jpg" alt="dillon-shook-m-Y3-bv-R74f-I-unsplash" border="0"></img>
+                <img className="img3" src="https://i.ibb.co/ZKdhQfv/4565.jpg" alt="dillon-shook-m-Y3-bv-R74f-I-unsplash" border="0"></img>
                 <div className="heading-smc">
                     <h1>{Util.WHAT_MAKES_DIFFERENT}</h1>
                     <ul>
