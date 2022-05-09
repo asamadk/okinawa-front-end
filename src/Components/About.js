@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <div className='about-images-container'>
         <img className='img5' src="https://i.ibb.co/my92d0t/radowan-nakif-rehan-79g15d8oo4-M-unsplash.jpg" alt="radowan-nakif-rehan-79g15d8oo4-M-unsplash" border="0"></img>
-        <img className='img5' src="https://i.ibb.co/hsMXw2V/alexandru-acea-WBYxm-W4yuw-unsplash.jpg" alt="alexandru-acea-WBYxm-W4yuw-unsplash" border="0"></img>
+        <img className='img5' src="https://i.ibb.co/kXZ17gS/Pngtree-customer-reviews-concept-with-people-5335846.png" alt="alexandru-acea-WBYxm-W4yuw-unsplash" border="0"></img>
         <img className='img5' src="https://i.ibb.co/DGyL3sQ/oliur-8j-STB6-NLm-VQ-unsplash.jpg" alt="oliur-8j-STB6-NLm-VQ-unsplash" border="0"></img>
       </div>
     </div>

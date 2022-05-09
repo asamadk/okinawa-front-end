@@ -1,7 +1,7 @@
 .about-first-container{
     background: whitesmoke;
     color: gray;
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
     justify-content: center;
 }
